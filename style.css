@@ -54,7 +54,7 @@ a {
 a:hover {
     color: grey;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.8rem;
     text-decoration-color: rgb(181,181,181);
 }
 
@@ -283,10 +283,25 @@ section {
     display: flex;
 }
 
-.about-pic {
-    border-radius: 2rem;
+.about-pic-container {
+    position: relative;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
 }
 
+.about-pic {
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.cornell-badge {
+    position: absolute;
+    right: -4.1rem;
+    bottom: -3rem;
+    width: 150px;
+    height: auto;
+}
 .arrow {
     position: absolute;
     right: -5rem;
@@ -295,24 +310,86 @@ section {
 
 .details-container {
     padding: 1.5rem;
-    flex: 1;
+    flex: 1rem;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    width: 20rem;
 }
 
 .section-container {
     gap: 4rem;
     height: 80%;
+    display: flex;
+    align-items: center;
 }
 
 .section__pic-container {
     height: 400px;
-    width: 400 px;
+    width: 400px;
     margin: auto 0;
 }
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;        
+    border: 2px solid #373737; 
+    border-radius: 1rem;
+    width: 450px;
+    height: 150px;
+  }
+
+/* FLIPCARD */
+
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 400px;
+    margin-top: 40px auto;
+    border: 1px solid white;
+    perspective: 1000px; 
+    padding: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #373737;
+    color: white;
+    text-align: center;
+  }
+  
+  .flip-card-back {
+    background-color: #373737;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
 /* EXPERIENCE SECTION */
 
@@ -393,7 +470,7 @@ article .icon {
 
 .blog-img {
     border-radius: 2rem;
-    width: 90%;
+    width: 60%;
     height: 90%;
 }
 

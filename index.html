@@ -39,8 +39,11 @@
         </nav>
         <section id="profile">
             <div class="section__pic-container">
-                <img src="./assets/profile-pic.png" alt="Hrishabh Ayush profile picture" /
-                >
+                <img 
+                src="./assets/profile-pic.png" 
+                alt="Hrishabh Ayush profile picture"
+                class="profile-pic"
+                />
             </div>
             <div class="section__text">
                 <p class="section__text__p1">Hello, I'm</p>
@@ -78,44 +81,46 @@
             <h1 class="title">About Me</h1>
             <div class="section-container">
                 <div class="section__pic-container">
-                    <img 
-                        src="./assets/about-pic.png" 
-                        alt="Profile picture"
-                        class="about-pic"
-                    />
-                </div>
-                <div class="about-details-container">
-                    <div class="about-containers">
-                        <div class="details-container">
-                            <img 
-                                src="./assets/experience.png" 
-                                alt="Experience icon" 
-                                class="icon"
-                            />
-                            <h3>Experience</h3>
-                            <p>2+ years <br />Programming</p>
-                        </div>
-                        <div class="details-container">
-                            <img 
-                                src="./assets/education.png" 
-                                alt="Education icon" 
-                                class="icon"
-                            />
-                            <h3>Education</h3>
-                            <p>Mathematics and Computer Science</p>
-                        </div>
+                    <div class="about-pic-container">
+                        <img 
+                            src="./assets/about-pic.png" 
+                            alt="Profile picture"
+                            class="about-pic"
+                        />
+                        <img
+                            src="./assets/cornell.png"
+                            alt="Cornell badge"
+                            class="cornell-badge"
+                        />
                     </div>
-                    <div class="text-container">
-                        <p> I am a sophomore at Cornell University, majoring in Mathematics 
-                            and Computer Science. I am passionate about the intersection 
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <div class="text-container">
+                            <h4>Sophomore at</h4>
+                            <h1 class="title">Cornell Univeristy</h1>
+                        </div>
+                      </div>
+                      <div class="flip-card-back">
+                        <div class="text-container">
+                            <h4>Majoring in</h4>
+                            <h1 class="title">Mathematics</h1>
+                            <h1 class="title">Computer Science</h1>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- <div class="about-details-container">
+                    <div class="description-container">
+                        <p> I am passionate about the intersection 
                             of quantitative finance, machine learning and artificial intelligence. <br />
                             As I embark on my academic journey at Cornell, my goal is to channel 
                             my enthusiasm for Mathematics, CS, and data-driven 
                             insights into contributing to organizations that are at the 
-                            forefront of innovation. <!--Let's connect and explore 
-                            how we can collaborate to drive impactful solutions!--> </p>
+                            forefront of innovation. </p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <img 
                 src="./assets/arrow.png" 
@@ -249,7 +254,7 @@
         </section>
         <section id="projects">
             <p class="section__text__p1">Browse My Recent</p>
-            <h1 class="title">Projects - COMING SOON</h1>
+            <h1 class="title">Projects</h1>
             <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-container color-container">
@@ -335,7 +340,7 @@
         </section>
         <section id="blogs">
             <p class="section__text__p1">Read my</p>
-            <h1 class="title">Blogs - COMING SOON</h1>
+            <h1 class="title">Blogs</h1>
             <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-container color-container">
@@ -359,26 +364,8 @@
                     <div class="details-container color-container">
                         <div class="article-container">
                             <img 
-                                src="./assets/project-2.png" 
-                                alt="Project 2"
-                                class="blog-img"
-                            />
-                        </div>
-                        <h2 class="experience-sub-title blog-title">CS Classes</h2>
-                        <div class="btn-container">
-                            <button 
-                                class="btn btn-color-2 blog-btn" 
-                                onclick="location.href='https://github.com/'"
-                            >
-                                Read
-                            </button>
-                        </div>
-                    </div>
-                    <div class="details-container color-container">
-                        <div class="article-container">
-                            <img 
                                 src="./assets/project-3.png" 
-                                alt="Project 3"
+                                alt="Blog 2"
                                 class="blog-img"
                             />
                         </div>
@@ -434,7 +421,7 @@
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169; 2023 Hrishabh Ayush. All Rights Reserved</p>
+            <p>Copyright &#169; 2024 Hrishabh Ayush. All Rights Reserved</p>
         </footer>
         <script src="script.js"></script> 
     </body>
