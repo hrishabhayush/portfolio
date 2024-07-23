@@ -213,6 +213,11 @@ section {
     height: 2rem;
 }
 
+.newicon {
+    cursor: pointer;
+    height: 5rem;
+}
+
 /* BUTTONS */
 
 .btn-container {
@@ -222,10 +227,10 @@ section {
 }
 
 .btn {
-    font-weight: 600;
+    font-weight: 550;
     transition: all 300ms ease;
     padding: 1rem;
-    width: 8rem;
+    width: 10rem;
     border-radius: 2rem;
 }
 
@@ -268,40 +273,36 @@ section {
 }
 
 .about-containers {
-    gap: 2rem;
+    display: flex;
+    gap: 1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
 .about-details-container {
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
 }
 
 .about-containers, 
-.about-details-container {
+.about-details-container{
     display: flex;
+    flex: 1;
+    padding: 1.5rem;
 }
 
 .about-pic-container {
-    position: relative;
-    width: 40rem;
+    flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: fit-content;
 }
 
 .about-pic {
+    max-width: 100%;
+    height: auto;
     border-radius: 1.5rem;
-    width: 100%;
 }
 
-.cornell-badge {
-    position: absolute;
-    right: -4.1rem;
-    bottom: -3rem;
-    width: 150px;
-    height: auto;
-}
 .arrow {
     position: absolute;
     right: -5rem;
@@ -310,25 +311,16 @@ section {
 
 .details-container {
     padding: 1.5rem;
-    flex: 1rem;
+    flex: 1;
+    width: 100;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width: 20rem;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 80%;
-    display: flex;
-    align-items: center;
 }
 
 .section__pic-container {
-    height: 400px;
-    width: 400px;
     margin: auto 0;
 }
 
@@ -337,59 +329,11 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 1rem;        
-    border: 2px solid #373737; 
     border-radius: 1rem;
-    width: 450px;
-    height: 150px;
+    width: 500px;
+    height: fit-content;
   }
 
-/* FLIPCARD */
-
-.flip-card {
-    background-color: transparent;
-    width: 350px;
-    height: 400px;
-    margin-top: 40px auto;
-    border: 1px solid white;
-    perspective: 1000px; 
-    padding: 0;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #373737;
-    color: white;
-    text-align: center;
-  }
-  
-  .flip-card-back {
-    background-color: #373737;
-    color: white;
-    transform: rotateY(180deg);
-  }
 
 /* EXPERIENCE SECTION */
 
@@ -416,12 +360,12 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 article {
     display: flex;
-    width: 10rem;
+    width: 5rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
@@ -463,6 +407,12 @@ article .icon {
     position: relative;
 }
 
+.blogs-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -471,7 +421,7 @@ article .icon {
 .blog-img {
     border-radius: 2rem;
     width: 60%;
-    height: 90%;
+    height: 80%;
 }
 
 .blog-title {
@@ -482,6 +432,11 @@ article .icon {
 .blog-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* CONTACT */
@@ -508,11 +463,12 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
+    gap: 0.6rem;
+    margin: 0.75rem;
 }
 
 .contact-info-container p {
+    padding-top: 12px;
     font-size: larger;
 }
 
@@ -534,3 +490,29 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* TYPING CURSOR */
+
+.cd-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+.ityped-cursor { 
+    animation: blink .6s linear infinite alternate;
+  }
