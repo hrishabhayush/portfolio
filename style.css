@@ -401,39 +401,6 @@ article .icon {
     border-color: rgb(163, 163, 163);    
 }
 
-/* BLOGS SECTION */
-
-#blogs {
-    position: relative;
-}
-
-.blogs-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-}
-
-.blog-img {
-    border-radius: 2rem;
-    width: 60%;
-    height: 80%;
-}
-
-.blog-title {
-    margin: 1 rem;
-    color: black;
-}
-
-.blog-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
-}
-
 img {
     max-width: 100%;
     height: auto;
