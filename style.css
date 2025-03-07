@@ -463,11 +463,11 @@ img {
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
-    margin: 0.75rem;
+    margin: 0.6rem;
 }
 
 .contact-info-container p {
-    padding-top: 12px;
+    padding-top: 8px;
     font-size: larger;
 }
 
