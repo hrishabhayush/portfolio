@@ -644,3 +644,40 @@ footer p {
         font-size: 1.75rem;
     }
 }
+
+/* ...existing code... */
+.riff-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .riff-section .container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .riff-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .riff-img-container {
+    margin: 1.5rem 0;
+  }
+  
+  .riff-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .riff-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  /* ...existing code... */
