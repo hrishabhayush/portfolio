@@ -24,7 +24,7 @@ export const DATA = {
   description:
     "Fintech and AI enthusiast. Math & CS at Cornell, building and breaking things everyday.",
   summary:
-    "TATA Scholar at Cornell studying Mathematics and Computer Science with a focus on AI and reading mathematics/economics of different events. I'm the [President of Cornell Blockchain](/#work), where we ran a 1200-person AI & Blockchain conference at Cornell Tech. Most recently I interned at [Microsoft](/#work) on AI ERP & Payments, where I worked on POS products and at [Gemini](/#work) on the Onchain team, shipping APIs that serve 1.5M+ requests a day.",
+    "TATA Scholar at Cornell studying Mathematics and Computer Science with a focus on AI and reading mathematics/economics of different events. I'm the [President of Cornell Blockchain](/#work), where we ran a [1200-person AI & Blockchain conference](https://www.aiblockchaincornelltech.org/) at Cornell Tech. Most recently I interned at [Microsoft](/#work) on AI ERP & Payments, where I worked on POS products and at [Gemini](/#work) on the Onchain team, shipping APIs that serve 1.5M+ requests a day.",
   avatarUrl: "/me.png",
   skills: [
     { name: "Python", icon: Python },
