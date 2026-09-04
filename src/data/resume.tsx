@@ -22,7 +22,7 @@ export const DATA = {
   location: "Ithaca, NY",
   locationLink: "https://www.google.com/maps/place/ithaca+ny",
   description:
-    "Fintech and AI enthusiast. Math & CS at Cornell, building and breaking things everyday.",
+    "Math & CS at Cornell, building and breaking things everyday.",
   summary:
     "TATA Scholar at Cornell studying Mathematics and Computer Science with a focus on AI and reading mathematics/economics of different events. I'm the [President of Cornell Blockchain](/#work), where we ran a [1200-person AI & Blockchain conference](https://www.aiblockchaincornelltech.org/) at Cornell Tech. Most recently I interned at [Microsoft](/#work) on AI ERP & Payments, where I worked on POS products and at [Gemini](/#work) on the Onchain team, shipping APIs that serve 1.5M+ requests a day.",
   avatarUrl: "/me.png",
@@ -129,6 +129,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Unwind",
+      href: "https://github.com/hrishabhayush/unwind",
+      dates: "July 2025",
+      active: true,
+      description:
+        "Chargeback-like refunds for crypto payments through a WalletConnect POS. A merchant vault and refund protocol with lockup refunds, arbiter-assisted early withdrawals, and payer reclaim windows.",
+      technologies: [
+        "Solidity",
+        "OpenZeppelin",
+        "WalletConnect",
+        "Next.js",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/hrishabhayush/unwind",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/unwind-x.mp4",
+    },
+    {
       title: "Primer",
       href: "https://primerpay.xyz",
       dates: "August 2025 - December 2025",
@@ -158,30 +182,6 @@ export const DATA = {
       image: "",
       video:
         "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/Screen%20Recording%202025-10-10%20at%204.29.06%E2%80%AFAM.mov",
-    },
-    {
-      title: "Unwind",
-      href: "https://github.com/hrishabhayush/unwind",
-      dates: "July 2025",
-      active: true,
-      description:
-        "Chargeback-like refunds for crypto payments through a WalletConnect POS. A merchant vault and refund protocol with lockup refunds, arbiter-assisted early withdrawals, and payer reclaim windows.",
-      technologies: [
-        "Solidity",
-        "OpenZeppelin",
-        "WalletConnect",
-        "Next.js",
-        "Typescript",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/hrishabhayush/unwind",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/unwind-x.mp4",
     },
     {
       title: "Verge",
