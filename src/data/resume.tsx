@@ -213,48 +213,7 @@ export const DATA = {
       image: "",
       video: "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/XRPL.mov",
     },
-    {
-      title: "Cove",
-      href: "https://github.com/hrishabhayush/pbc2025-cove",
-      dates: "February 2025 - Present",
-      active: true,
-      description:
-        "A peer-to-peer parametric insurance marketplace, starting with flight insurance, that auto-pays claims and shrinks settlement time by 95%. Pooled underwriting and stochastic modeling create an uncorrelated yield stream targeting 5% APY. Won $5,000 for Best Product in Encrypted DeFi at the Penn Blockchain Hackathon.",
-      technologies: [
-        "Solidity",
-        "Typescript",
-        "Ethereum",
-        "zkEmail",
-        "Node.js",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/hrishabhayush/pbc2025-cove",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/cove.png",
-      video: "",
-    },
-    {
-      title: "RIFF",
-      href: "https://github.com/SeismicSystems/prototypes/tree/79f59213a42a81ddcba6d641f0089cd282776963/riff",
-      dates: "January 2025 - April 2025",
-      active: false,
-      description:
-        "A bonding curve you can listen to. An Automated Market Maker in Solidity where every swap becomes an AI-generated violin track, paired with a React Native app for real-time market-driven audio feedback. Built at Seismic Systems.",
-      technologies: ["Solidity", "Foundry", "Typescript", "React Native"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/SeismicSystems/prototypes/tree/79f59213a42a81ddcba6d641f0089cd282776963/riff",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/riff.png",
-      video: "",
-    },
+
   ],
   hackathons: [
     {
