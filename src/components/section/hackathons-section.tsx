@@ -33,10 +33,10 @@ export default function HackathonsSection() {
                   <img
                     src={hackathon.image}
                     alt={hackathon.title}
-                    className="size-12 bg-card z-10 shrink-0 object-contain flex-none"
+                    className="size-10 bg-card z-10 shrink-0 object-contain flex-none"
                   />
                 ) : (
-                  <div className="size-12 bg-card z-10 shrink-0 rounded bg-muted flex-none" />
+                  <div className="size-10 bg-card z-10 shrink-0 rounded bg-muted flex-none" />
                 )}
               </TimelineConnectItem>
               <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
