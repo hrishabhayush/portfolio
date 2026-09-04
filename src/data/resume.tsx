@@ -84,8 +84,6 @@ export const DATA = {
       logoUrl: "/microsoft.png",
       start: "May 2026",
       end: "August 2026",
-      description:
-        "Resolved Store Commerce data-sync and offline health check issues across Commerce releases; added diagnostic logging and downloadable incident logs, cutting developer reproduction time by up to 30 minutes. Scaled the Azure Store Monitoring Agent with schema improvements in Copilot for 30+ iOS and Android customers. Built an internal payment integration feature for enterprise commerce platforms, supporting 50+ assets through POS checkout, settlement, and server-side reconciliation.",
     },
     {
       company: "Gemini",
@@ -96,8 +94,6 @@ export const DATA = {
       logoUrl: "/gemini.png",
       start: "January 2026",
       end: "May 2026",
-      description:
-        "Built and launched 5 high-throughput API endpoints handling 1.5M+ daily requests and reduced response latency by 45%, driving an increase in active API users alongside a blog and email go-to-market push. Developed market-making infrastructure for Gemini Predictions, supporting $1M+ in daily trading volume. Led the new API rollout to 90% adoption by redesigning developer documentation for clarity and agent-readability, enabling programmatic and agentic trading use cases.",
     },
     {
       company: "Seismic Systems",
@@ -108,8 +104,6 @@ export const DATA = {
       logoUrl: "/seismic.png",
       start: "January 2025",
       end: "April 2025",
-      description:
-        "Developed an Automated Market Maker in Solidity that transforms each swap into an AI-generated violin track. Created a React Native mobile app for real-time market-driven audio feedback, reducing playback latency by 30% for seamless trading interactions.",
     },
     {
       company: "Cornell Blockchain",
@@ -120,8 +114,6 @@ export const DATA = {
       logoUrl: "/cornellblockchain.png",
       start: "January 2024",
       end: "Present",
-      description:
-        "Led Cornell Blockchain to host a one-day AI & Blockchain Redefining Markets Conference at Cornell Tech with 1200+ attendees and 90+ speakers across AI, blockchain, and finance. Directed the engineering subteam as Head of Engineering for 4 semesters, driving end-to-end product development and mentoring groups of 3-4 students on technical design, demo strategy, and problem-solving.",
     },
   ],
   education: [
