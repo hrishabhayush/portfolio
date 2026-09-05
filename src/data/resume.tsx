@@ -131,6 +131,19 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "SolMail",
+      href: "",
+      dates: "November 2025",
+      active: true,
+      description:
+        "Cold email outreach with pay-per-send payments settled through x402 on Solana.",
+      technologies: ["Typescript", "Solana", "x402", "Node.js"],
+      links: [],
+      image: "",
+      video:
+        "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/SolMail_Screen%20Cap.mp4",
+    },
+    {
       title: "Unwind",
       href: "https://github.com/hrishabhayush/unwind",
       dates: "July 2025",
