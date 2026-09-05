@@ -132,13 +132,32 @@ export const DATA = {
   projects: [
     {
       title: "SolMail",
-      href: "",
-      dates: "November 2025",
+      href: "https://solmail.xyz",
+      dates: "November 2025 - Present",
       active: true,
       description:
-        "Cold email outreach with pay-per-send payments settled through x402 on Solana.",
-      technologies: ["Typescript", "Solana", "x402", "Node.js"],
-      links: [],
+        "An incentivized inbox for richer replies. An AI-powered email client built on Zero that sends micropayments upfront and refunds them if the reply isn't meaningful, so you only pay for conversations that actually go somewhere.",
+      technologies: [
+        "Typescript",
+        "React",
+        "Solana",
+        "x402",
+        "Drizzle",
+        "PostgreSQL",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://solmail.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sol-mail",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "",
       video:
         "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/SolMail_Screen%20Cap.mp4",
