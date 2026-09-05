@@ -132,7 +132,7 @@ export const DATA = {
   projects: [
     {
       title: "SolMail",
-      href: "http://solmail.xyz",
+      href: "https://solmail.xyz",
       dates: "November 2025 - Present",
       active: true,
       description:
@@ -148,7 +148,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "http://solmail.xyz",
+          href: "https://solmail.xyz",
           icon: <Icons.globe className="size-3" />,
         },
         {
