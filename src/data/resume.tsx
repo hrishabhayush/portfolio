@@ -191,7 +191,7 @@ export const DATA = {
       dates: "August 2025 - December 2025",
       active: true,
       description:
-        "Stablecoin payments on Amazon. You pay with your choice of stablecoin and the web2 and web3 sides are bridged through the Coinbase Data API and Amazon gift cards — sub-700ms transaction latency, gift card codes applied automatically at checkout. Top 10 ETHGlobal finalist out of 270+ projects.",
+        "Stablecoin payments on Amazon. You pay with your choice of stablecoin and the web2 and web3 sides are bridged through the Coinbase Data API and Amazon gift cards with sub-700ms transaction latency, gift card codes applied automatically at checkout. Top 10 ETHGlobal finalist out of 270+ projects.",
       technologies: [
         "Typescript",
         "React",
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "May 2024 - February 2025",
       active: true,
       description:
-        "A fullstack app that picks the thumbnail for your next YouTube video, Instagram cover, or dating profile photo — the one that will actually get clicks — through decentralized voting. Payments settle on Solana and uploads run through S3 presigned URLs and CloudFront.",
+        "A fullstack app that picks the thumbnail for your next YouTube video, Instagram cover, or dating profile photo: the one that will actually get clicks. Image uploads run through S3 presigned URLs and CloudFront for privacy and caching for scaling.",
       technologies: [
         "Typescript",
         "Next.js",
