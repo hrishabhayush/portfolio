@@ -12,8 +12,9 @@ import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
 import { Solidity } from "@/components/ui/svgs/solidity";
 import { Rust } from "@/components/ui/svgs/rust";
-import { Cpp } from "@/components/ui/svgs/cpp";
 import { Tailwind } from "@/components/ui/svgs/tailwind";
+import { Pytorch } from "@/components/ui/svgs/pytorch";
+import { Aws } from "@/components/ui/svgs/aws";
 
 export const DATA = {
   name: "Hrishabh Ayush",
@@ -33,12 +34,13 @@ export const DATA = {
     { name: "Rust", icon: Rust },
     { name: "Go", icon: Golang },
     { name: "Java", icon: Java },
-    { name: "C++", icon: Cpp },
     { name: "C#", icon: Csharp },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
+    { name: "PyTorch", icon: Pytorch },
+    { name: "AWS", icon: Aws },
     { name: "Docker", icon: Docker },
     { name: "TailwindCSS", icon: Tailwind },
   ],
