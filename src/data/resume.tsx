@@ -132,24 +132,23 @@ export const DATA = {
   projects: [
     {
       title: "SolMail",
-      href: "https://solmail.xyz",
+      href: "http://solmail.xyz",
       dates: "November 2025 - Present",
       active: true,
       description:
-        "An incentivized inbox for richer replies. An AI-powered email client built on Zero that sends micropayments upfront and refunds them if the reply isn't meaningful, so you only pay for conversations that actually go somewhere.",
+        "The incentivized inbox for richer replies. SolMail is an AI-powered email platform with micropayments on emails which incentivize meaningful responses. Pay only for successful conversations.",
       technologies: [
         "Typescript",
         "React",
         "Solana",
         "x402",
-        "Drizzle",
         "PostgreSQL",
         "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://solmail.xyz",
+          href: "http://solmail.xyz",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -248,79 +247,5 @@ export const DATA = {
       video: "https://d2cv8nsjauj8c9.cloudfront.net/fiver/video/XRPL.mov",
     },
 
-  ],
-  hackathons: [
-    {
-      title: "ETHGlobal New York",
-      dates: "August 2025",
-      location: "New York, NY",
-      description:
-        "Built Primer, a browser extension for paying with stablecoins on Amazon. Top 10 finalist out of 270+ projects, with 300+ external waitlist signups.",
-      image: "/ethglobal-nyc.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="size-3" />,
-          href: "https://github.com/hrishabhayush/primer",
-        },
-      ],
-    },
-    {
-      title: "Dreamnet Character Agent Hackathon",
-      dates: "July 2025",
-      location: "Remote",
-      description:
-        "Built a context-aware screen overlay agent using reinforcement learning — a real-time voice agent that reads your activity and responds with sub-2-second latency, boosting user interaction rates by 60% per session. Awarded $20,000 for Best Immersive Experience.",
-      image: "",
-      links: [],
-    },
-    {
-      title: "ETHGlobal Cannes",
-      dates: "July 2025",
-      location: "Cannes, France",
-      description:
-        "Built Unwind, a refund protocol that gives crypto payments chargeback-like guarantees through a WalletConnect point-of-sale.",
-      image: "/ethglobal-cannes.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="size-3" />,
-          href: "https://github.com/hrishabhayush/unwind",
-        },
-      ],
-    },
-    {
-      title: "Healthcare Hackathon",
-      dates: "June 2025",
-      location: "New York, NY",
-      description:
-        "Built ClaimAssist, which predicts insurance claim adjudication from physician's notes and EHR data using Random Forest, ClinicalBERT and OpenAI — 90% accuracy on 5,000 synthetic data points. First prize for best collaborative solution in legacy healthcare among 50+ participants.",
-      image: "",
-      links: [],
-    },
-    {
-      title: "ETHDenver",
-      dates: "February 2025",
-      location: "Denver, CO",
-      description:
-        "Competed in the EigenLayer hackathon, building an interview AI agent that talks to users to find product-market fit for early-stage ideas.",
-      image: "",
-      links: [],
-    },
-    {
-      title: "Penn Blockchain Hackathon",
-      dates: "February 2025",
-      location: "Philadelphia, PA",
-      description:
-        "Built Cove, a peer-to-peer parametric flight insurance marketplace. Won $5,000 for Best Product in Encrypted DeFi.",
-      image: "",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="size-3" />,
-          href: "https://github.com/hrishabhayush/pbc2025-cove",
-        },
-      ],
-    },
   ],
 } as const;
